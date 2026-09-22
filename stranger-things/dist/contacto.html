@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1"><title>Contacto | Stranger Things</title>
+<meta name="description" content="Contactate con el archivo de fans de Stranger Things. Compartí tus preguntas, teorías y comentarios.">
+<meta name="theme-color" content="#0b0c0e">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='5' fill='%230b0c0e'/%3E%3Ctext x='6' y='25' font-size='27' font-family='serif' fill='%23ef343c'%3ES%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="styles.css"></head>
+<body><a class="skip" href="#contenido">Saltar al contenido</a>
+<header class="site-header"><a class="brand" href="index.html" aria-label="Stranger Things, inicio">STRANGER<span>THINGS</span></a>
+<nav aria-label="Navegación principal">
+<ul>
+<li><a href="index.html">Inicio</a></li>
+<li class="with-submenu"><a href="historia.html">La historia</a>
+<details>
+<summary aria-label="Abrir submenú de La historia"></summary>
+<ul>
+<li><a href="historia.html#hawkins">Hawkins</a></li>
+<li><a href="historia.html#laboratorio">El laboratorio</a></li>
+<li><a href="historia.html#otro-lado">El Otro Lado</a></li>
+</ul>
+</details>
+</li>
+<li><a href="personajes.html">Personajes</a></li>
+<li><a href="galeria.html">Galería</a></li>
+<li><a href="contacto.html" aria-current="page">Contacto</a></li>
+</ul>
+</nav>
+<span class="header-note">HAWKINS, INDIANA</span></header>
+<main id="contenido">
+<header class="page-heading wrap">
+<p class="eyebrow">04 / CONTACTO</p>
+<h1>¿Hay alguien<br>del <em>otro lado?</em></h1>
+<p>Compartí tu teoría, hacenos una pregunta o simplemente decí hola.</p>
+</header>
+<section class="contact-layout wrap" aria-label="Contacto">
+<aside>
+<h2>Mantené la señal.</h2>
+<p>Las mejores historias empiezan con una conversación. Este es tu espacio para hablar de Hawkins.</p>
+<p class="form-note" id="form-note">Formulario de demostración. Podés completar y validar los campos; los mensajes todavía no se envían ni se guardan.</p>
+</aside>
+<form action="contacto.html#sin-envio" method="get" aria-describedby="form-note">
+<label for="nombre">Nombre <span>(obligatorio)</span></label>
+<input id="nombre" type="text" placeholder="¿Cómo te llamás?" autocomplete="name" minlength="2" maxlength="80" required>
+<label for="email">Correo electrónico <span>(obligatorio)</span></label>
+<input id="email" type="email" placeholder="tu@email.com" autocomplete="email" required>
+<label for="asunto">Asunto</label>
+<select id="asunto">
+<option>Una teoría sobre la serie</option>
+<option>Una consulta</option>
+<option>Un comentario</option>
+</select>
+<label for="mensaje">Mensaje <span>(obligatorio)</span></label>
+<textarea id="mensaje" rows="5" minlength="10" maxlength="2000" placeholder="Te escuchamos desde Hawkins…" required></textarea>
+<button class="button" type="submit">Validar mensaje <span aria-hidden="true">↗</span></button>
+<p id="sin-envio" class="form-result" role="status">Completaste la validación. Este formulario es una demostración: tu mensaje no fue enviado.</p>
+</form>
+</section>
+</main>
+<footer class="site-footer"><a class="footer-brand" href="index.html">STRANGER THINGS</a>
+<p>Un archivo para quienes nunca dejaron de creer.</p>
+<small>Sitio de fans · Proyecto educativo · Sin afiliación con Netflix.</small></footer>
+</body>
+</html>
